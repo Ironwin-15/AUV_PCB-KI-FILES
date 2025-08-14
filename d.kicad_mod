@@ -1,0 +1,134 @@
+(footprint "d"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Battery holder, Bulgin, BX0034, 1xAAA, screw holes, additional tab connections, https://www.bulgin.com/products/pub/media/import/attachments/Battery_holders.pdf")
+	(tags "horizontal single")
+	(property "Reference" "REF**"
+		(at 36.99 -45.69 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "291e7653-e0d9-479e-83b1-66004ea6969e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "d"
+		(at 60.94 -45.69 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "443cb8ac-ef4f-49fd-a7d9-55b8cc4ff72a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c3ba9ba0-f6e8-40c1-af94-f654d1940e54")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "559d1dce-8115-4966-9347-2fc50760d815")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -65 -25)
+		(end 65 25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "ada65522-861e-4d4f-94fb-60ea02524258")
+	)
+	(fp_rect
+		(start -65 -14.5)
+		(end -45 14.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "5112db4c-1687-4994-b0c0-37e783287bb4")
+	)
+	(fp_rect
+		(start 65 -14.5)
+		(end 45 14.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "eed7e903-d7c4-433c-a4ac-c987cf1e70ab")
+	)
+	(pad "5" thru_hole circle
+		(at -55 -7.3)
+		(size 2.54 2.54)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "44a38f93-643e-44f0-bd42-cdef654cf026")
+	)
+	(pad "5" thru_hole circle
+		(at -54.9 7.2)
+		(size 2.54 2.54)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d0f09b2e-c1ab-41b7-ad03-c738023632c1")
+	)
+	(pad "5" thru_hole circle
+		(at 55.1 -6.9)
+		(size 2.54 2.54)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "540ab6c7-f514-4f79-90b1-09194658b82f")
+	)
+	(pad "5" thru_hole circle
+		(at 55.1 7.2)
+		(size 2.54 2.54)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9d70d2e0-be6f-4962-9d84-d75da3c2b703")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Battery.3dshapes/BatteryHolder_Bulgin_BX0034_1xAAA.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
