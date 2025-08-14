@@ -1,0 +1,96 @@
+(footprint "pad"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SMT capacitor, aluminium electrolytic, 3x5.3, Cornell Dubilier Electronics ")
+	(tags "Capacitor Electrolytic")
+	(property "Reference" "REF**"
+		(at 0 -2.7 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "cf3d134c-041f-4868-af59-102a661e0e85")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "pad"
+		(at 0 2.7 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "11069c3d-c802-41a6-9962-06fec642808a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "92a4e48a-65d5-4d74-8628-db9442add5cb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "66eba436-8acd-4278-9341-c43ea99319cf")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -8.7 -15.4)
+		(end 7.7 -7.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "a20d792d-8822-4368-8a48-b3ba476a1169")
+	)
+	(pad "3" smd rect
+		(at -5.1 -11.5)
+		(size 4 4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "2f3004d7-6fcc-4aa4-8805-a49d4fa68840")
+	)
+	(pad "3" smd rect
+		(at 4.1 -11.4)
+		(size 4 4)
+		(layers "B.Cu")
+		(thermal_bridge_angle 45)
+		(uuid "e686d864-3771-45e8-8f00-94487e4aea82")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/CP_Elec_3x5.3.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
